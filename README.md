@@ -1,6 +1,7 @@
 # dankmemer-farm
 
 Simple script to farm Dankmemer coins with multiple accounts at once.
+
 **Requires:** Proxies, Discord Tokens
 
 ## Disclaimer
@@ -22,7 +23,8 @@ How to use.
 
 **4.** If you want to run multiple Tokens at once it is recommended adding proxies, to prevent getting rate limited.
 
-Place a text file (proxies.txt) in the folder. Proxies format ("ip:port")
+Place a text file (proxies.txt) in the folder. 
+Proxies format: ("ip:port")
 
 **5.** Run the script and enter your channel ID. All the bots will farm in that channel.
 **All your Tokens need access to the channel, so make sure they are joined, and have send message permission.**
