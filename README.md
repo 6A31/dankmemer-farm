@@ -2,7 +2,7 @@
 
 Simple script to farm Dankmemer coins with multiple accounts at once.
 
-**Requires:** Proxies, Discord Tokens
+**Requires:** `Proxies, Discord Tokens`
 
 ## Disclaimer
 I don't take responsibility if you get banned from a server or if your Tokens get locked
@@ -18,13 +18,13 @@ How to use.
 
 **2.** Place the python file in the folder.
 
-**3.** Place a text file (tokens.txt) with discord Tokens in the folder.
+**3.** Place a text file (`tokens.txt`) with discord Tokens in the folder.
 **Call the file "tokens.txt"**. If you change the name, the script won't find your Tokens.
 
 **4.** If you want to run multiple Tokens at once it is recommended adding proxies, to prevent getting rate limited.
 
-Place a text file (proxies.txt) in the folder. 
-Proxies format: ("ip:port")
+Place a text file (`proxies.txt`) in the folder. 
+Proxies format: (`ip:port`)
 
 **5.** Run the script and enter your channel ID. All the bots will farm in that channel.
 **All your Tokens need access to the channel, so make sure they are joined, and have send message permission.**
