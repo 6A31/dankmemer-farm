@@ -4,14 +4,18 @@ import random
 from multiprocessing import Process
 #Imports
 
+#########################################
+
+channel_id = 'Your channel id here'
+id = 'Your user id here'
+
+#########################################
+
 try:
     token = open("tokens.txt", "r")
     tokenlist = token.read().split("\n") #Creates a list with all the Tokens form the file
 except:
     print("No file with tokens detected. Please place a file in the same directory as the script called 'tokens.txt'")
-
-channel_id = input("Enter channel id here >>> ")
-id = input("Enter your user-id here. All coins will be tranfered to this id every 4 minutes >>> ")
 
 try:
     f = open("proxies.txt", "r")
