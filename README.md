@@ -26,12 +26,17 @@ How to use.
 Place a text file (`proxies.txt`) in the folder. 
 Proxies format: (`ip:port`)
 
-**5.** Run the script and enter your channel ID. All the bots will farm in that channel.
+**5.** Open the script and change the following variables.
+
+`channel_id` -> Set this to the id of the channel you wanna farm in.
+
+`id` -> Set this to your user id. The bots will send their money to this account.
+
 **All your Tokens need access to the channel, so make sure they are joined, and have send message permission.**
 
-**6.** Enter your user ID once prompted. All the bots will transfer all their money to the ID every 3-4 min.
+**6.** Run the script with `python3 main.py`
 
-**6. Profit**
+**7. Profit**
 
 ## Support
 Dm me on Discord or join my [server](https://daddyissue.org)
