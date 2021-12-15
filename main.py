@@ -40,32 +40,38 @@ def sendmessage(token):
         try:
             i = random.randint(0, len(proxielist))
             p = convertproxy(proxielist[i]) #Chooses a random proxy for every Farm-Sell cycle.
+            
             res = requests.post(f'https://discordapp.com/api/v6/channels/{channel_id}/messages', headers=headers, proxies=p, json={'content': message})
             print(res)
-            time.sleep(20 + random.randint(2,5))
+
+            time.sleep(20 + random.randint(1,6))
             res = requests.post(f'https://discordapp.com/api/v6/channels/{channel_id}/messages', headers=headers, proxies=p, json={'content': message2  })
             print(res)
-            time.sleep(25 + random.randint(0,10))
+            time.sleep(25 + random.randint(1,5))
             res = requests.post(f'https://discordapp.com/api/v6/channels/{channel_id}/messages', headers=headers, proxies=p, json={'content': message})
             print(res)
-            time.sleep(20 + random.randint(2,5))
+
+            time.sleep(20 + random.randint(1,6))
             res = requests.post(f'https://discordapp.com/api/v6/channels/{channel_id}/messages', headers=headers, proxies=p, json={'content': message2  })
             print(res)
-            time.sleep(25 + random.randint(0,10))
+            time.sleep(25 + random.randint(1,5))
             res = requests.post(f'https://discordapp.com/api/v6/channels/{channel_id}/messages', headers=headers, proxies=p, json={'content': message})
             print(res)
-            time.sleep(20 + random.randint(2,5))
+
+            time.sleep(20 + random.randint(1,6))
             res = requests.post(f'https://discordapp.com/api/v6/channels/{channel_id}/messages', headers=headers, proxies=p, json={'content': message2  })
             print(res)
-            time.sleep(25 + random.randint(0,10))
+            time.sleep(25 + random.randint(1,5))
             res = requests.post(f'https://discordapp.com/api/v6/channels/{channel_id}/messages', headers=headers, proxies=p, json={'content': message})
             print(res)
-            time.sleep(20 + random.randint(2,5))
+
+            time.sleep(20 + random.randint(1,6))
             res = requests.post(f'https://discordapp.com/api/v6/channels/{channel_id}/messages', headers=headers, proxies=p, json={'content': message2  })
             print(res)
-            time.sleep(25 + random.randint(0,10))
+
             res = requests.post(f'https://discordapp.com/api/v6/channels/{channel_id}/messages', headers=headers, proxies=p, json={'content': pay  })
             print(res)
+            time.sleep(25 + random.randint(1,5))
             if res.status_code == 429:
                 print("Ratelimit detected....")
         except:
