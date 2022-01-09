@@ -15,6 +15,10 @@ You can run this script with 15 accounts at once before getting rate limited.
 ## Usage
 This script was build for [Python 3.9](https://www.python.org/downloads/release/python-390/)
 
+```
+py main.py
+```
+
 How to use.
 ------------
 **1.** Create a folder.
