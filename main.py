@@ -6,17 +6,17 @@ from multiprocessing import Process
 
 #########################################
 
-channel_id = '818808200475443233'
-id = '557904328225062935'
+channel_id = 'The id of your channel to farm in'
+id = 'Your id for receiving money'
 
 #########################################
 
 
-if channel_id == 'The id to farm in': 
+if channel_id == 'The id of your channel to farm in': 
     print("Make sure to specify a channel id. If you don't know how to obtain channel id's use Google.")
     time.sleep(5)
     quit()
-if channel_id == 'your id for receiving money':
+if channel_id == 'Your id for receiving money':
     print("Please specify what user to send the money to. specify a user id above. If you don't know how to obtain user id's use Google")
     time.sleep(5)
     quit()
