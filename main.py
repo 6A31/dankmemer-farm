@@ -6,11 +6,20 @@ from multiprocessing import Process
 
 #########################################
 
-channel_id = 'Your channel id for mining here'
-id = 'the id the bots will send the money to'
+channel_id = '818808200475443233'
+id = '557904328225062935'
 
 #########################################
 
+
+if channel_id == 'The id to farm in': 
+    print("Make sure to specify a channel id. If you don't know how to obtain channel id's use Google.")
+    time.sleep(5)
+    quit()
+if channel_id == 'your id for receiving money':
+    print("Please specify what user to send the money to. specify a user id above. If you don't know how to obtain user id's use Google")
+    time.sleep(5)
+    quit()
 
 
 #███╗░░░███╗░█████╗░██████╗░███████╗
@@ -49,7 +58,7 @@ def sendmessage(token):
     messagedig = "pls dig"
     messagefish = "pls fish"
     messagehunt = "pls hunt"
-    message2 = f"random text to bypass the bot protection AAA {random.randint(19999,199999992323324324)}" #Sends a string with random numbers to trick dankmemer's macro detection
+    message2 = f"random text to bypass the bot protection AAA {random.randint(1, 99999) * random.randint(1, 9999) + random.randint(1,99999)}" #Sends a string with random numbers to trick dankmemer's macro detection
     pay = f"pls share max <@{id}>"
     headers = {'Authorization': token}
     i = 0
@@ -79,12 +88,10 @@ def sendmessage(token):
                 print("payout successfull")
                 i = 0
 
-            if res.status_code == 429:
-                print("Ratelimit detected....")
         except:
-            pass
             print(f"Failed on token: {token}")
-            print("If the script is not working, feel free to contact me on discord, https://discord.gg/kjsdxkbtjw")
+            print("If the script is not working at all, feel free to contact me on discord, https://discord.gg/kjsdxkbtjw")
+            pass
 
 
 #Start script
