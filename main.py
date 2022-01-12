@@ -23,7 +23,7 @@ def sendmessage(token):
     message = "pls beg"
     messagedig = "pls dig"
     messagefish = "pls fish"
-    messagehunt = "pls hunt
+    messagehunt = "pls hunt"
     message2 = f"random text to bypass the bot protection AAA {random.randint(19999,199999992323324324)}" #Sends a string with random numbers to trick dankmemer's macro detection
     pay = f"pls share max <@{id}>"
     headers = {'Authorization': token}
