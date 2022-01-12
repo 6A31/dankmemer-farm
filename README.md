@@ -3,7 +3,7 @@
 
 Simple script to farm Dankmemer coins with multiple accounts at once.
 
-**Requires:** `Discord Tokens`
+**Requires:** `Discord Tokens` | `requests` module
 
 ## Disclaimer
 I don't take responsibility if you get banned from a server or if your Tokens get locked
