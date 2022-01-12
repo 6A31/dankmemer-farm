@@ -36,6 +36,8 @@ id = 'the id the bots will send the money to'
 #╚█████╔╝██║░░██║██████╔╝███████╗
 #░╚════╝░╚═╝░░╚═╝╚═════╝░╚══════╝
 
+print("Starting...")
+
 try:
     token = open("tokens.txt", "r")
     tokenlist = token.read().split("\n") #Creates a list with all the Tokens form the file
@@ -81,6 +83,7 @@ def sendmessage(token):
 
 #Start script
 if __name__=='__main__':
+    print("Starting threads...")
     for token in tokenlist:
         p1 = Process(target=sendmessage, args=(token,))
         p1.start()
