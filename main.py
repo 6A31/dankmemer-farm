@@ -57,20 +57,26 @@ def sendmessage(token):
     while True:
         try:
             res = requests.post(f'https://discordapp.com/api/v6/channels/{channel_id}/messages', headers=headers, json={'content': messagehunt})
+            print("Hunt successfully")
             time.sleep(5)
             res = requests.post(f'https://discordapp.com/api/v6/channels/{channel_id}/messages', headers=headers, json={'content': message})
+            print("beg successfully")
             time.sleep(5)
             res = requests.post(f'https://discordapp.com/api/v6/channels/{channel_id}/messages', headers=headers, json={'content': messagefish})
+            print("fish successfully")
             time.sleep(5)         
             res = requests.post(f'https://discordapp.com/api/v6/channels/{channel_id}/messages', headers=headers, json={'content': messagedig})
+            print("dig successfully")
             time.sleep(5)
             time.sleep(random.randint(1,6))
 
-            res = requests.post(f'https://discordapp.com/api/v6/channels/{channel_id}/messages', headers=headers, json={'content': message2  })
+            res = requests.post(f'https://discordapp.com/api/v6/channels/{channel_id}/messages', headers=headers, json={'content': message2})
+            print("Bypassed message send successfully")
             time.sleep(25 + random.randint(1,5))
             i += 1
             if i > 2:
                 res = requests.post(f'https://discordapp.com/api/v6/channels/{channel_id}/messages', headers=headers, json={'content': pay})
+                print("payout successfull")
                 i = 0
 
             if res.status_code == 429:
