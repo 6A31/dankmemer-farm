@@ -67,6 +67,7 @@ try:
     token = open("tokens.txt", "r")
     tokenlist = token.read().split("\n") #Creates a list with all the Tokens from the file
 except:
+    print("-" * 20)
     print("No file with tokens detected. Please place a file in the same directory as the script, called 'tokens.txt'")
 
 def sendmessage(token):
