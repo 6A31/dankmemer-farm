@@ -45,4 +45,23 @@ Dm me on Discord or join my [server](https://daddyissue.org)
 
 You can open an issue on Github as well
 
+## FAQ
+**Do i need multiple accounts?**
 
+No, you can run this with as many accounts as you like. Note that Discord will rate limit you if you send too many API requests.
+
+**The file closes after i open it**
+
+You have to run the file via the command prompt / terminal. if you don't know how to do that ask for help in [my discord server](https://daddyissue.org)
+
+**All the commands are saying they failed**
+
+Make sure your tokens are valid and that all accounts have permisson to send messages in the channel you supplied.
+
+**How do i get channel id's and user id's**
+
+You can enable developer settings in Discord like this: `settings -> advanced -> developer settings` then rightclick a channel or user and click `copy id`
+
+**How do i get my Discord token**
+
+I can't explain this here, but **google it**
