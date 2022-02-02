@@ -54,6 +54,11 @@ No, you can run this with as many accounts as you like. Note that Discord will r
 
 You have to run the file via the command prompt / terminal. If you don't know how to do that, ask for help in [my discord server](https://daddyissue.org)
 
+> **How do i download Python**
+
+You can download the latest version of [Python3 here](https://www.python.org/downloads/)
+After downloading, run the file, and make sure you click the checkbox `add to path` as it will help you out later.
+
 > **Can i get banned**
 
 Yes. You can always get banned. Blacklisted by dankmemer or banned by discord. It's very unlikely tho.
