@@ -52,16 +52,21 @@ No, you can run this with as many accounts as you like. Note that Discord will r
 
 > **The file closes after i open it**
 
-You have to run the file via the command prompt / terminal. if you don't know how to do that ask for help in [my discord server](https://daddyissue.org)
+You have to run the file via the command prompt / terminal. If you don't know how to do that, ask for help in [my discord server](https://daddyissue.org)
+
+> **Can i get banned**
+
+Yes. You can always get banned. Blacklisted by dankmemer or banned by discord. It's very unlikely tho.
 
 > **All the commands are saying they failed**
 
-Make sure your tokens are valid and that all accounts have permisson to send messages in the channel you supplied.
+Make sure your tokens are valid and that all accounts have permission to send messages in the channel you supplied. If you still get errors, ask or help in [my discord server](https://daddyissue.org)
 
 > **How do i get channel id's and user id's**
 
-You can enable developer settings in Discord like this: `settings -> advanced -> developer settings` then rightclick a channel or user and click `copy id`
+You can enable developer settings in Discord like this: `settings -> advanced -> developer settings` then right-click a channel or user and click `copy id`
 
 > **How do i get my Discord token**
 
 I can't explain this here, but **google it**
+
