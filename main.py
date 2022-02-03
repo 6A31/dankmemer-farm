@@ -126,13 +126,42 @@ def sendmessage(token):
             print(f"Failed on token: {token}")
             print("If the script is not working at all, feel free to contact me on discord, https://discord.gg/kjsdxkbtjw")
             pass
+def work(token):
+    headers = {'Authorization': token}
+    messagework = "pls work"
+    messagediscordmod = "pls work discordmod"
+    res = requests.post(f'https://discordapp.com/api/v6/channels/{channel_id}/messages', headers=headers, json={'content': messagediscordmod})
+    while True:
+        res = requests.post(f'https://discordapp.com/api/v6/channels/{channel_id}/messages', headers=headers, json={'content': messagework})
+        print("worked succesfully")
+        time.sleep(random.randint(3700,3800))
+        
+
+
+
+def placeholder(token):
+    headers = {'Authorization': token}
+    placeholdermessage = "Put your command here"
+    interval = "replace this text (including the quotation marks) with the desired interval in seconds"
+    while True:
+        res = requests.post(f'https://discordapp.com/api/v6/channels/{channel_id}/messages', headers=headers, json={'content': placeholdermessage})
+        print("executed custom command succesfully")
+        time.sleep(interval + random.randint(1,5))
 
 
 #Start script
 if __name__=='__main__':
     for token in tokenlist:
         p1 = Process(target=sendmessage, args=(token,))
+        p3 = Process(target=placeholder, args=(token,))
+        p2 = Process(target=work, args=(token,))
         p1.start()
+        time.sleep(2)
+        p2.start()
+        ####remove the two # below to start your custom process####
+        #time.sleep(2)
+        #p3.start()
+
 
     
     
