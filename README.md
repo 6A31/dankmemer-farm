@@ -41,7 +41,9 @@ How to use.
 **6. Profit**
 
 ## Support
-Dm me on Discord or join my [server](https://daddyissue.org)
+Open a github issue
+
+You can join my Disocrd [server](https://daddyissue.org) (**NOT FOR SUPPORT**)
 
 You can open an issue on Github as well
 
@@ -65,8 +67,7 @@ Yes. You can always get banned. Blacklisted by dankmemer or banned by discord. I
 
 > **All the commands are saying they failed**
 
-Make sure your tokens are valid and that all accounts have permission to send messages in the channel you supplied. If you still get errors, ask or help in [my discord server](https://daddyissue.org)
-
+Make sure your tokens are valid and that all accounts have permission to send messages in the channel you supplied. If you still get errors, open a Github issue
 > **How do i get channel id's and user id's**
 
 You can enable developer settings in Discord like this: `settings -> advanced -> developer settings` then right-click a channel or user and click `copy id`
