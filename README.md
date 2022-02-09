@@ -10,11 +10,16 @@ I don't take responsibility if you get banned from a server or if your Tokens ge
 
 You can run this script with 15 accounts at once before getting rate limited.
 
-**All accounts need access to the channel ID you provide. Make sure all accounts are in the server and have send message permission**
+**All accounts need access to the channel IDs you provide. Make sure all accounts are in the server and have send message permission**
 
 ## Usage
 This script was build for [Python 3.9](https://www.python.org/downloads/release/python-390/)
 
+### Windows
+Double-click the .bat file
+
+### MacOS / Linux
+run the following command in the file's directory:
 ```
 py main.py
 ```
@@ -25,20 +30,29 @@ How to use.
 
 **2.** Place the python file in the folder.
 
-**3.** Place a text file (`tokens.txt`) with discord Tokens in the folder.
+**3.** Place a text file (`tokens.txt`) with discord Tokens in the folder, one per line.
 **Call the file "tokens.txt"**. If you change the name, the script won't find your Tokens.
 
-**4.** Open the script and change the following variables.
+**4.** Place a text file (`channels.txt`) with channel IDs in the folder, one per line.
+**Call the file "channels.txt"**. If you change the name, the script won't find your channels.
 
-`channel_id` -> Set this to the ID of the channel you want to farm in.
+**5.** Open the script and change the following variables.
+
+`backup_channel` -> Set this to the ID of the backup channel you want to farm in.
 
 `id` -> Set this to your user ID. The bots will send their money to this account.
 
-**All your Tokens need access to the channel, so make sure they are joined, and have send message permission.**
+**All your Tokens need access to the channels you provide, so make sure they are joined, and have send message permission.**
 
-**5.** Run the script with `python3 main.py`
+**6. (WINDOWS ONLY)(OPTIONAL)** Place a .txt file in the same folder as everything else and copy/paste the code in start.bat to the txt file.
 
-**6. Profit**
+**7. (WINDOWS ONLY)(OPTIONAL)** Rename the file to `start.bat`
+
+**8.** Run the script with `python main.py` or double click the .bat file if you're on windows.
+
+**9. Profit**
+
+**Note:** The way your tokens and channel IDs are placed is the way they will work. ie. TokenOne is on line one and ChannelOne is on line one, so TokenOne will send messages to ChannelOne. Also, if you only want... lets say two accounts in seperate channels, and the others in one channel all together, put the two tokens you want seperate on line one and two in `tokens.txt` as well as their respective channels on line one and two in `channels.txt` and the rest of the tokens the same way, except with no channels. Make sure to set the back up channel variable to the channel you want the rest of the accounts to run commands on.
 
 ## Support
 Dm me on Discord or join my [server](https://daddyissue.org)
