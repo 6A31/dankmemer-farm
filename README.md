@@ -6,6 +6,9 @@ Simple script to farm Dankmemer coins with multiple accounts at once.
 **Requires:** `Discord Tokens` | `requests` module
 
 ## Disclaimer
+
+**SOME COMMANDS NOLONGER WORK. THE SCRIPT IS NOLONGER ABLE TO AUTO-TRANSFER MONEY FROM A ALT ACCOUNT TO ANOTHER ACCOUNT! ALL OTHER COMMANDS STILL WORK AND CAN BE FULLY CUSTOMIZED!**
+
 I don't take responsibility if you get banned from a server or if your Tokens get locked
 
 You can run this script with 15 accounts at once before getting rate limited.
