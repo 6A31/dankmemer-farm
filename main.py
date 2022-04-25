@@ -29,14 +29,19 @@ Made by 6A31 - https://github.com/scobrascope
 GNU GENERAL PUBLIC LICENSE V3
 
 Please follow the license at https://github.com/ScobraScope/dankmemer-farm/blob/main/LICENSE.md
+---------------------------------------------------------------
+
+
+
+
 """)
 
 if channel_id == 'The id of your channel to farm in': #DON'T TOUCH THIS, THIS IS JUST A CHECK!
-    print("Make sure to specify a channel id. If you don't know how to obtain channel id's use Google.")
+    print("ERROR: Make sure to specify a channel id. If you don't know how to obtain channel id's use Google.")
     time.sleep(5)
     quit()
 if channel_id == 'Your user id for receiving money': #DON'T TOUCH THIS, THIS IS JUST A CHECK!
-    print("Please specify what user to send the money to. specify a user id above. If you don't know how to obtain user id's use Google")
+    print("ERROR: Please specify what user to send the money to. specify a user id above. If you don't know how to obtain user id's use Google")
     time.sleep(5)
     quit()
 
@@ -70,7 +75,7 @@ try:
     tokenlist = token.read().split("\n") #Creates a list with all the Tokens from the file
 except:
     print("-" * 20)
-    print("No file with tokens detected. Please place a file in the same directory as the script, called 'tokens.txt'")
+    print("ERROR: No file with tokens detected. Please place a file in the same directory as the script, called 'tokens.txt'")
 
 def sendmessage(token):
     message = "pls beg"
