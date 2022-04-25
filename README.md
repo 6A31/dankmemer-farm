@@ -31,7 +31,7 @@ How to use.
 **3.** Place a text file (`tokens.txt`) with discord Tokens in the folder.
 **Call the file "tokens.txt"**. If you change the name, the script won't find your Tokens.
 
-**4.** Open the script and change the following variables.
+**4.** Edit the script and change the following variables.
 
 `channel_id` -> Set this to the ID of the channel you want to farm in.
 
