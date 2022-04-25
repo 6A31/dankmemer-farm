@@ -36,16 +36,6 @@ Please follow the license at https://github.com/ScobraScope/dankmemer-farm/blob/
 
 """)
 
-if channel_id == 'The id of your channel to farm in': #DON'T TOUCH THIS, THIS IS JUST A CHECK!
-    print("ERROR: Make sure to specify a channel id. If you don't know how to obtain channel id's use Google.")
-    time.sleep(5)
-    quit()
-if channel_id == 'Your user id for receiving money': #DON'T TOUCH THIS, THIS IS JUST A CHECK!
-    print("ERROR: Please specify what user to send the money to. specify a user id above. If you don't know how to obtain user id's use Google")
-    time.sleep(5)
-    quit()
-
-
 #███╗░░░███╗░█████╗░██████╗░███████╗
 #████╗░████║██╔══██╗██╔══██╗██╔════╝
 #██╔████╔██║███████║██║░░██║█████╗░░
@@ -68,6 +58,16 @@ if channel_id == 'Your user id for receiving money': #DON'T TOUCH THIS, THIS IS 
 #██╔══██╗██╔══██║░╚═══██╗╚═╝██║░░
 #╚█████╔╝██║░░██║██████╔╝███████╗
 #░╚════╝░╚═╝░░╚═╝╚═════╝░╚══════╝
+
+
+if channel_id == 'The id of your channel to farm in': #DON'T TOUCH THIS, THIS IS JUST A CHECK!
+    print("ERROR: Make sure to specify a channel id. If you don't know how to obtain channel id's use Google.")
+    time.sleep(5)
+    quit()
+if channel_id == 'Your user id for receiving money': #DON'T TOUCH THIS, THIS IS JUST A CHECK!
+    print("ERROR: Please specify what user to send the money to. specify a user id above. If you don't know how to obtain user id's use Google")
+    time.sleep(5)
+    quit()
 
 
 try:
