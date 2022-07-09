@@ -31,7 +31,7 @@ How to use.
 **3.** Place a text file (`tokens.txt`) with discord Tokens in the folder.
 **Call the file "tokens.txt"**. If you change the name, the script won't find your Tokens.
 
-**4.** Edit the script and change the following variables.
+**4.** Edit the script and change the following variables. They are indicated with "CHANGE THIS".
 
 `channel_id` -> Set this to the ID of the channel you want to farm in.
 
@@ -46,9 +46,9 @@ How to use.
 ## Support
 Open a github issue
 
-You can join my Disocrd [server](https://daddyissue.org) (**NOT FOR SUPPORT**)
+You can join my Disocrd [server](https://daddyissue.org)
 
-You can open an issue on Github as well
+
 
 ## FAQ
 > **Do i need multiple accounts?**
