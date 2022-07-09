@@ -7,11 +7,13 @@ from multiprocessing import Process
 #########################################
            ###REPLACE THOSE###
     
-channel_id = 'The id of your channel to farm in'
-id = 'Your user id for receiving money'
+channel_id = 'The id of your channel to farm in' # <--- PUT YOUR CHANNEL ID BETWEEN THE ' '
+id = 'Your user id for receiving money' # <--- PUT YOUR USER ID BETWEEN THE ' ' 
 
            ###REPLACE THOSE###
 #########################################
+
+# FROM HERE ON DOWNWARDS NOTHING NEEDS TO BE CHANGED
 
 print("""
 https://github.com/ScobraScope/dankmemer-farm/
