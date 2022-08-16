@@ -14,6 +14,10 @@ id = 'Your user id for receiving money' # <--- PUT YOUR USER ID BETWEEN THE ' '
 #########################################
 
 # FROM HERE ON DOWNWARDS NOTHING NEEDS TO BE CHANGED
+# FROM HERE ON DOWNWARDS NOTHING NEEDS TO BE CHANGED
+# FROM HERE ON DOWNWARDS NOTHING NEEDS TO BE CHANGED
+# FROM HERE ON DOWNWARDS NOTHING NEEDS TO BE CHANGED
+
 
 print("""
 https://github.com/ScobraScope/dankmemer-farm/
@@ -84,7 +88,7 @@ def sendmessage(token):
     messagedig = "pls dig"
     messagefish = "pls fish"
     messagehunt = "pls hunt"
-    message2 = f"random text to bypass the bot protection AAA {random.randint(1, 99999) * random.randint(1, 9999) + random.randint(1,99999)}" #Sends a string with random numbers to trick dankmemer's macro detection
+    message2 = f"random text to bypass the bot protection {random.randint(1, 99999) * random.randint(1, 9999) + random.randint(1,99999)}" #Sends a string with random numbers to trick dankmemer's macro detection
     pay = f"pls share max <@{id}>"
     headers = {'Authorization': token}
     i = 0
@@ -118,7 +122,10 @@ def sendmessage(token):
             time.sleep(random.randint(1,6))
 
             res = requests.post(f'https://discordapp.com/api/v6/channels/{channel_id}/messages', headers=headers, json={'content': message2})
-            print("Bypassed message send successfully")
+            if res.status_code == 200:
+                print("Bypassed message send successfully")
+            else:
+                print(f"Bypassmessage failed. Errorcode: {res}")
             time.sleep(25 + random.randint(1,5))
             i += 1
             if i > 2:
